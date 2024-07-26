@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Rico's Inventory Management System</h1>
+    </div>
+    <div class="container">
+        <div class="inventory">
+            <table id="inventoryTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Quantity</th>
+                        <th>Image</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </div>
+        <div class="order-form">
+            <h2>Order Items</h2>
+            <form id="orderForm">
+                <label for="itemType">Item:</label>
+                <select id="itemType">
+                    <option value="Tomato">Tomato</option>
+                    <option value="Potato">Potato</option>
+                    <option value="Broccoli">Broccoli</option>
+                </select>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" required>
+                <button type="submit">Order</button>
+                <span id="liveCount">Available: </span>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

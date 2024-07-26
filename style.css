@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #800020; 
+    padding: 1em;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.inventory {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color: #e0e0e0; 
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.order-form {
+    margin-top: 60px; 
+    padding: 20px;
+    border: 2px solid #800020; 
+    border-radius: 10px; 
+    background-color: #ffffff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.order-form h2 {
+    margin-bottom: 20px;
+    color: #333; 
+}
+
+.order-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.order-form input,
+.order-form select,
+.order-form button {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.order-form button {
+    background-color: #800020; 
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.order-form button:hover {
+    background-color: #822121; 
+}
+
+#liveCount {
+    margin-top: 10px;
+    font-weight: bold;
+}
